@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:weightSum="2"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:text="1"
+    android:textSize="30sp"
+    android:textColor="#6A1E1E"
+    android:gravity="center"
+    android:background="#F1D057"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="2"
+        android:textSize="30sp"
+        android:textColor="#6A1E1E"
+        android:gravity="center"
+        android:background="#C3AC17"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:weightSum="9"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="3"
+            android:textSize="30sp"
+            android:textColor="#6A1E1E"
+            android:gravity="center"
+            android:background="#BD17C3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="4"
+            android:textSize="30sp"
+            android:textColor="#6A1E1E"
+            android:gravity="center"
+            android:background="#EDE8F858"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="5"
+            android:textSize="30sp"
+            android:textColor="#6A1E1E"
+            android:gravity="center"
+            android:background="#FA211C"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:weightSum="4"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="6"
+            android:textSize="30sp"
+            android:textColor="#6A1E1E"
+            android:gravity="center"
+            android:background="#9C6C1A"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="7"
+            android:textSize="30sp"
+            android:textColor="#6A1E1E"
+            android:gravity="center"
+            android:background="#F15EAF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="NodeJS"
+            android:textSize="30sp"
+            android:textColor="#FBF8F8"
+            android:gravity="start"
+            android:background="#2337EA"/>
+    </LinearLayout>
+</LinearLayout>
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+android:id="@+id/fab"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="end|bottom"
+android:src="@drawable/next_btn"
+android:layout_margin="16dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
